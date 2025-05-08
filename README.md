@@ -11,16 +11,4 @@
 This project drives the SSD1351 1.46" OLED display (NO29-P23903) using the STM32F103VET6 and the HAL library. The core driver is implemented in `bsp_oled.c` and `bsp_oled.h`, which are generally portable. Font display and image rendering functionalities can be customized and extended via `font.h`.
 
 ---
-
-## 📂 建議檔案結構 | Recommended File Structure
-
-├── Core/
-│ ├── Inc/
-│ │ ├── bsp_oled.h
-│ │ ├── font.h
-│ │ └── font.h
-│ └── Src/
-│ │ ├── bsp_oled.c
-│ │ └── font.h
-└──  README.md
  
